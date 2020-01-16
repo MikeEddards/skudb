@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: #282828;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  background: #812225;
+  width: 100vw;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  height: 80%;
+}
+
+.header h1 {
+  color: white;
+  margin-left: 10vw;
+}
+/*# sourceMappingURL=style.css.map */

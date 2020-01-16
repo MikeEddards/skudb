@@ -1,0 +1,30 @@
+$red: rgb(129,34,37);
+$black: rgb(40,40,40);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background: $black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    background: $red;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .logo{
+        height: 80%;
+        
+    }
+    h1{
+        color: white;
+        margin-left: 10vw;
+    }
+}
